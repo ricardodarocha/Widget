@@ -1,0 +1,37 @@
+object FloatButton: TFloatButton
+  Left = 0
+  Top = 0
+  AlphaBlendValue = 0
+  AutoSize = True
+  BorderStyle = bsNone
+  Caption = 'FloatButton'
+  ClientHeight = 65
+  ClientWidth = 65
+  Color = clBtnFace
+  TransparentColor = True
+  TransparentColorValue = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object SpeedButton1: TSpeedButton
+    Left = 0
+    Top = 0
+    Width = 65
+    Height = 65
+    Caption = #10133
+    Flat = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 8388863
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+end
